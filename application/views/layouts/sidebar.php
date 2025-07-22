@@ -35,7 +35,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
+            <a href="<?= base_url(); ?>" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard   
@@ -43,7 +43,7 @@
             </a>
           </li>
           <li class="mt-2 nav-item menu-open">
-            <a href="#" class="nav-link ">
+            <a href="<?= base_url(); ?>atlet" class="nav-link ">
               <i class="nav-icon fas fa-users"></i>
               <p>
                 Atlet   
@@ -51,7 +51,7 @@
             </a>
           </li>
           <li class="mt-2 nav-item menu-open">
-            <a href="#" class="nav-link ">
+            <a href="<?= base_url(); ?>pelatih" class="nav-link ">
               <i class="nav-icon fas fa-user"></i>
               <p>
                 Pelatih   
